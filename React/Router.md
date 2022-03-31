@@ -41,9 +41,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 기본 구조는 최상단 element를 `<BrowserRouter>` tag가 감싸게 됩니다.
 
 ```js
-<BrouserRouter>
+<BrowserRouter>
   <div className="App"></div>
-</BrouserRouter>
+</BrowserRouter>
 ```
 
 ### Route
