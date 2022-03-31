@@ -8,8 +8,9 @@ RRD 사용하는걸 알아봅시다.
 웹에서 a tag를 통해 다른 페이지로 이동 한다면,  
 React 에서는 React-Router을 통해 Link 태그를 사용하여 화면을 전환합니다.
 
-일반적으로 웹에서 a tag 를 통해서 새로고침이 되며 이동하는걸 **MPA (Multi Page Application)** 이라고 하고
-React와 같은 경우를 **SPA(Single Page Application, CSR(Cliend Side Rendering)** 이라고 합니다.
+일반적으로 <br />
+웹에서 a tag 를 통해서 새로고침이 되며 이동하는걸 **MPA (Multi Page Application)** 이라고 하고 <br />
+**React** 같은 경우를 **SPA(Single Page Application, CSR(Cliend Side Rendering)** 이라고 합니다.
 
 ## BrowserRouter
 
