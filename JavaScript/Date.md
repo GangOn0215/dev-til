@@ -55,14 +55,14 @@ console.log({firstDay, lastDay}); // {firstDay: 2022.03.27, lastDay: 2022.04.02}
 ### Get Monthly FirstDay ~ LastDay (월간 첫날부터 마지막날 구하기)
 ```js
 const firstDay = new Date(
-  curDate.getFullYear(),
-  curDate.getMonth(),
+  todayDate.getFullYear(),
+  todayDate.getMonth(),
   1
 );
 
 const lastDay = new Date(
-  curDate.getFullYear(),
-  curDate.getMonth() + 1,
+  todayDate.getFullYear(),
+  todayDate.getMonth() + 1,
   0,
   23,
   59,
@@ -72,12 +72,24 @@ const lastDay = new Date(
 console.log({firstDay, lastDay}); // {firstDay: 2022.04.01, lastDay: 2022.04.30}
 ```
 
-### get increaseWeekly (next week)
+### get increaseWeekly (next Week)
 ```js 
-const increaseWeekly = new Date(curDate.getFullYear(), curDate.getMonth(), curDate.getDate() + 7);
+const increaseWeekly = new Date(todayDate.getFullYear(), todayDate.getMonth(), todayDate.getDate() + 7);
 ```
 
-### get decreaseWeekly (last week)
+### get decreaseWeekly (last Week)
 ```js 
-const decreaseWeekly = new Date(curDate.getFullYear(), curDate.getMonth(), curDate.getDate() - 7);
+const decreaseWeekly = new Date(todayDate.getFullYear(), todayDate.getMonth(), todayDate.getDate() - 7);
 ```
+
+### get increaseMonthly (next Month)
+```js
+const increaseMonthly = new Date(curDate.getFullYear(), curDate.getMonth() + 1);
+```
+
+### get decreaseMonthly (last Month)
+```js
+const increaseMonthly = new Date(curDate.getFullYear(), curDate.getMonth() - 1);
+```
+
+### blog
