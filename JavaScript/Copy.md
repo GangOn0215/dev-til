@@ -32,7 +32,7 @@ console.log(memoA === memoB)   // true
 ```js
 const aVar = 10;
 ```
-![aVar](https://user-images.githubusercontent.com/96044518/161382293-cca582c6-0f57-4ac7-886b-d229f0f43cb4.PNG)
+![aVar](https://user-images.githubusercontent.com/96044518/161382293-cca582c6-0f57-4ac7-886b-d229f0f43cb4.PNG) <br>
 상수로 aVar 데이터를 만들고 10의 값을 넣는다면 다음과 같이 aVar 변수 안에 10이라는 데이터가 존재합니다.
 
 하지만 reference 데이터들인 Object, Array 인 경우에는 다르게 동작을 합니다.
@@ -41,7 +41,7 @@ const aVar = 10;
 ```js
 const memoA = {author: 'Person A', content: 'Plan to make a coffee'};
 ```
-![memoA](https://user-images.githubusercontent.com/96044518/161382406-71067f42-6c02-4eee-afc1-c0f94d7b7e46.PNG)
+![memoA](https://user-images.githubusercontent.com/96044518/161382406-71067f42-6c02-4eee-afc1-c0f94d7b7e46.PNG) <br>
 
 바로 객체의 **주소**를 가진다는 점입니다.
 **Java**로 예를 든다면 **참조 변수, 참조** 한다고 합니다.
@@ -49,16 +49,16 @@ const memoA = {author: 'Person A', content: 'Plan to make a coffee'};
 ```js
 const memoB = memoA;
 ```
-![memoB-1](https://user-images.githubusercontent.com/96044518/161382491-c1026940-1c86-460e-b744-3e4fb8820580.PNG)
+![memoB-1](https://user-images.githubusercontent.com/96044518/161382491-c1026940-1c86-460e-b744-3e4fb8820580.PNG) <br>
 그래서 만약 memoB 변수를 만들고 memoA 변수를 바로 대입을 하여 복사를 한다면 **shallow copy (얕은 복사)** 가 되어버립니다.
 
 ```js
 memoB.author  = 'Person B';
 memoB.content = 'Take a bus';
 ```
-![memoB-2](https://user-images.githubusercontent.com/96044518/161382530-a1e7abda-6bfd-4bb2-9119-da9d0213c24d.PNG)
-만약 이 상황에서 **memoB의 객체 프로퍼티의 값을 변경**한다면 어떻게 될까요?
-![memoB-4](https://user-images.githubusercontent.com/96044518/161382565-771a9c34-b57a-4066-b5d1-9d9420d68ff5.PNG)
+![memoB-2](https://user-images.githubusercontent.com/96044518/161382530-a1e7abda-6bfd-4bb2-9119-da9d0213c24d.PNG) <br>
+만약 이 상황에서 **memoB의 객체 프로퍼티의 값을 변경**한다면 어떻게 될까요? <br> <br>
+![memoB-4](https://user-images.githubusercontent.com/96044518/161382565-771a9c34-b57a-4066-b5d1-9d9420d68ff5.PNG) <br>
 memoB의 객체 프로퍼티 값들이 변경 되면서 memoA 또한 같은 주소를 가지고 있기 때문에 memoB만 변경을 했을뿐인데 **memoA 까지 데이터가 변하게 된 이유** 입니다.
 
 이걸 방지하기 위해선 **Deep Copy (깊은 복사)** 를 해줘야 합니다.
@@ -124,7 +124,8 @@ console.log(memoA.author  === memoB.author)  // false
 console.log(memoA.content === memoB.content) // false
 ```
 
-`const memoB = JSON.parse(JSON.stringify(memoA));`  이런식으로 **JSON 메서드를 이용하여 string**으로 바꾼다음 다시 **json.parse로** 바꿔서 **원시 데이터** 처럼 데이터를 복사 할 수 있습니다.
+`const memoB = JSON.parse(JSON.stringify(memoA));`  이런식으로 **JSON 메서드를 이용하여 string**으로 바꾼다음 다시  <br>
+**json.parse로** 바꿔서 **원시 데이터** 처럼 데이터를 복사 할 수 있습니다.
 
 ## Example) Deep Copy
 ### 해결 방법 2. Lodash
@@ -148,8 +149,6 @@ console.log(memoA         === memoB)         // false
 console.log(memoA.author  === memoB.author)  // false
 console.log(memoA.content === memoB.content) // false
 ```
-자바스크립트에서 유명한 라이브러리중 하나인 **lodash** 를 이용하여 **Deep Copy**를 지원하는 메소드가 있습니다.
-
-`cloneDeep();` 이라는 메소드 입니다.
-
+자바스크립트에서 유명한 라이브러리중 하나인 **lodash** 를 이용하여 **Deep Copy**를 지원하는 메소드가 있습니다. <br>
+`cloneDeep();` 이라는 메소드 입니다. <br>
 lodash는 _ 이라는 걸로 불러와서 많이들 쓰는것 같아서 _로 불러왔고 `_.cloneDeep()` 하여 인자에 복사할 데이터를 넣게 되면 Deep copy 를 할수있습니다.
