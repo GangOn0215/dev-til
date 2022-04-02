@@ -152,3 +152,5 @@ console.log(memoA.content === memoB.content) // false
 자바스크립트에서 유명한 라이브러리중 하나인 **lodash** 를 이용하여 **Deep Copy**를 지원하는 메소드가 있습니다. <br>
 `cloneDeep();` 이라는 메소드 입니다. <br>
 lodash는 _ 이라는 걸로 불러와서 많이들 쓰는것 같아서 _로 불러왔고 `_.cloneDeep()` 하여 인자에 복사할 데이터를 넣게 되면 Deep copy 를 할수있습니다.
+
+Blog: https://coxemonkey.tistory.com/21
