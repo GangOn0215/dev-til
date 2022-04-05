@@ -100,5 +100,6 @@ export default DingdongDitch;
 ![11513](https://user-images.githubusercontent.com/96044518/161692157-860d5772-33a2-4b4e-b3f1-c63204294884.jpg)
 
 ditch 함수를 **useCallback으로 감싸서 함수를 넘겨줬더니** 202호 벨을 눌렀지만 402호 벨은 **Re-Rendering이 발생하지 않는걸** 볼수있습니다. <br>
+
 간단하게 예제와 함께 설명을 해보았습니다. <br>
 여기까지 봐주신 여러분 감사합니당.
