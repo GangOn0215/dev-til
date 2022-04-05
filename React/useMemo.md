@@ -1,4 +1,4 @@
-##useMemo
+## useMemo
 
 useMemo에 대해 공부를 하였지만 어떤 예제를 들어야 할지 애매모호 해서 상당히 골치 아팠습니다.
 그러다 어제 올린 React.memo 에서 띵똥 벨튀 예제를 가져와서 쓰면 괜찮을것 같아서 DindongDitch를 개조해 보았습니다.
@@ -6,7 +6,7 @@ useMemo에 대해 공부를 하였지만 어떤 예제를 들어야 할지 애�
 useMemo 를 공부하면 useCallback 은 필연으로 공부를 하게 됩니다.
 두가지 비슷하지만 확연히 차이가 있습니다.
 
-###Memoization 이란?
+### Memoization 이란?
 
 주어진 입력값에 대한 결과를 저장함으로써 같은 입력값에 대해 함수가 한 번만 실행되는 것을 보장을 의미합니다.
 
@@ -56,11 +56,8 @@ export default DingdongDitch;
 ![1-2](https://user-images.githubusercontent.com/96044518/161689908-7c1109cc-d610-405d-bd9a-c26ba6f3718d.gif)
 
 202호, 303호 벨 눌렀던 횟수를 합치는 함수 **getTotalBell202303()** 를 만들고 변수 **totalBell202303** 에다가 데이터를 받습니다. <br>
-
 totalBell202303가 선언 될때 console로 뜨게 했습니다. <br>
-
 분명 402호 벨을 눌렀는데 totalBell202303 변수가 계속 선언이 되고 있습니다. <br>
-
 402호 state가 값이 변할때 **Component Re-Rendering**이 발생하는건데 그래서 **totalBell202303** 변수가 계속하여 **재선언**이 되고 있던것입니다. <br>
 
 ```js
@@ -134,3 +131,5 @@ const Bell402 = React.memo(({ call }) => {
   return <div>{`Bell 402!! ${call}`}</div>;
 });
 ```
+
+blog: https://coxemonkey.tistory.com/25
