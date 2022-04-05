@@ -14,6 +14,7 @@ useMemo: **memoization** 된 **값을 반환** 합니다. <br>
 useCallback: **memoization** 된 **함수를 반환** 합니다. <br>
 
 useCallback의 간단한 예시를 들자면
+
 1.  useCallback(() => fn, [**deps**]); // deps의 데이터가 변하게 된다면
 2.  useCallback(**() => fn**, [deps]); // callback 함수를 반환 하게 됩니다.
 
@@ -73,7 +74,7 @@ https://github.com/GangOn0215/dev-til/blob/main/React/ReactMemo.md <br>
 call402 state가 값이 변하기 때문에 상위 컴포넌트에서 **Re-Rendering** 이 발생하고 **props에** 들어온 ditch 함수가 **계속 재선언**이 되기 때문 입니다.
 
 ```js
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from "react";
 
 const DingdongDitch = () => {
   const [call202, setCall202] = useState(0);
@@ -94,6 +95,7 @@ const DingdongDitch = () => {
 
 export default DingdongDitch;
 ```
+
 ![1-1](https://user-images.githubusercontent.com/96044518/161691628-b87aa5ac-a00e-4cfa-a838-162c779ca771.gif)
 ![1-3](https://user-images.githubusercontent.com/96044518/161691631-fa00ac85-3a36-44c6-8e29-91dcbaea0e41.gif)
 
