@@ -17,7 +17,7 @@ Today I Learned의 약자.
 
 ### TIL
 
-[[ 220415 ] - 간트차트](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022-04-15.md)
+- [[ 220415 ] - 간트차트](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022-04-15.md)
 
 ### JavaScript
 
