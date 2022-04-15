@@ -15,6 +15,10 @@ Today I Learned의 약자.
 
 ## 분류
 
+### TIL
+
+[[ 220415 ] - 간트차트](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022-04-15.md)
+
 ### JavaScript
 
 - [Copy](https://github.com/GangOn0215/dev-til/blob/main/JavaScript/Copy.md)
@@ -24,6 +28,6 @@ Today I Learned의 약자.
 
 - [DataPicker](https://github.com/GangOn0215/dev-til/blob/main/React/DatePicker.md)
 - [Router](https://github.com/GangOn0215/dev-til/blob/main/React/Router.md)
-- [[Optimize] React.memo](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20ReactMemo.md)
-- [[Optimize] useMemo](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20useMemo.md)
-- [[Optimize] useCallback](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20useCallback.md)
+- [[ Optimize ] React.memo](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20ReactMemo.md)
+- [[ Optimize ] useMemo](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20useMemo.md)
+- [[ Optimize ] useCallback](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20useCallback.md)
