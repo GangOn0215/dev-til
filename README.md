@@ -31,7 +31,7 @@ Today I Learned의 약자.
 - [[ 220417 ] - 간트차트 3편](https://github.com/GangOn0215/dev-til/blob/main/TIL/220417.md)
 - [[ 220418 ] - 프로젝트 ](https://github.com/GangOn0215/dev-til/blob/main/TIL/220418.md)
 - [[ 220419 ] - 프로젝트 ](https://github.com/GangOn0215/dev-til/blob/main/TIL/220419.md)
-- [[ 220420 ] -  ](https://github.com/GangOn0215/dev-til/blob/main/TIL/220420.md)
+- [[ 220420 ] - 백준 준비 ](https://github.com/GangOn0215/dev-til/blob/main/TIL/220420.md)
 
 ### JavaScript
 
