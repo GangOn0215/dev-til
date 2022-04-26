@@ -28,16 +28,7 @@ Today I Learned의 약자.
 
 ### TIL
 
-- [[ 220415 ] - 간트차트](https://github.com/GangOn0215/dev-til/blob/main/TIL/220415.md)
-- [[ 220416 ] - 간트차트, 프로젝트 일정표](https://github.com/GangOn0215/dev-til/blob/main/TIL/220416.md)
-- [[ 220417 ] - 간트차트 3편](https://github.com/GangOn0215/dev-til/blob/main/TIL/220417.md)
-- [[ 220418 ] - 프로젝트](https://github.com/GangOn0215/dev-til/blob/main/TIL/220418.md)
-- [[ 220419 ] - 프로젝트](https://github.com/GangOn0215/dev-til/blob/main/TIL/220419.md)
-- [[ 220420 ] - 백준 준비](https://github.com/GangOn0215/dev-til/blob/main/TIL/220420.md)
-- [[ 220421 ] - 백준 문제](https://github.com/GangOn0215/dev-til/blob/main/TIL/220421.md)
-- [[ 220422 ] - Project Gonmogen](https://github.com/GangOn0215/dev-til/blob/main/TIL/220422.md)
-- [[ 220423 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/220423.md)
-- [[ 220424 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/220424.md)
+- [TIL](https://github.com/GangOn0215/dev-til/tree/main/TIL)
 
 ### JavaScript
 
