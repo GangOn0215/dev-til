@@ -7,7 +7,7 @@
 
 오늘 난 공부를 했다는 주제로 `오늘 할 일(계획)`, `오늘 한 일(회고)`, `내일 할 일(계획)`, `장기 계획` 순으로 정리하여 매일 올릴려고 노력하고 있습니다. ✍
 
-### 4월
+### [ 4월 ](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04)
 
 
 - [[ 220415 ] - 간트차트](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220415.md)
@@ -22,5 +22,4 @@
 - [[ 220424 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220424.md)
 - [[ 220425 ] - Project Gonmogen](https://github.GangOn0215/dev-til/blob/main/TIL/2022/04/220425.md)
 
-
-### 5월
+### [ 5월 ](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/05)
