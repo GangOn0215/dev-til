@@ -20,6 +20,7 @@
 - [[ 220422 ] - Project Gonmogen](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220422.md)
 - [[ 220423 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220423.md)
 - [[ 220424 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220424.md)
-- [[ 220425 ] - Project Gonmogen](https://github.GangOn0215/dev-til/blob/main/TIL/2022/04/220425.md)
+- [[ 220425 ] - Project Gonmogen](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220425.md)
+- [[ 220426 ] - Project Gonmogen, ERD](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220426.md)
 
 ### [ 5월 ](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/05)
