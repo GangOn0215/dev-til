@@ -28,7 +28,7 @@ Today I Learned의 약자.
 
 ### TIL
 
-- [TIL](https://github.com/GangOn0215/dev-til/tree/main/TIL)
+- [TIL](https://github.com/GangOn0215/dev-til/tree/main/TIL/2022)
 
 ### JavaScript
 
