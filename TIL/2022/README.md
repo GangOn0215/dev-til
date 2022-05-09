@@ -8,19 +8,10 @@
 오늘 난 공부를 했다는 주제로 `오늘 할 일(계획)`, `오늘 한 일(회고)`, `내일 할 일(계획)`, `장기 계획` 순으로 정리하여 매일 올릴려고 노력하고 있습니다. ✍
 
 ### [ 4월 ](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04)
-
-
-- [[ 220415 ] - 간트차트](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220415.md)
-- [[ 220416 ] - 간트차트, 프로젝트 일정표](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220416.md)
-- [[ 220417 ] - 간트차트 3편](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220417.md)
-- [[ 220418 ] - 프로젝트](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220418.md)
-- [[ 220419 ] - 프로젝트](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220419.md)
-- [[ 220420 ] - 백준 준비](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220420.md)
-- [[ 220421 ] - 백준 문제](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220421.md)
-- [[ 220422 ] - Project Gonmogen](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220422.md)
-- [[ 220423 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220423.md)
-- [[ 220424 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220424.md)
-- [[ 220425 ] - Project Gonmogen](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220425.md)
-- [[ 220426 ] - Project Gonmogen, ERD](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/04/220426.md)
-
 ### [ 5월 ](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/05)
+
+- [[ 220501 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/05/220501.md)
+- [[ 220502 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/05/220502.md)
+- [[ 220503~06 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/05/220506.md)
+- [[ 220507 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/05/220507.md)
+- [[ 220508 ]](https://github.com/GangOn0215/dev-til/blob/main/TIL/2022/05/220508.md)
