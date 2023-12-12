@@ -1,5 +1,3 @@
-![Main](https://user-images.githubusercontent.com/96044518/164134443-f6268101-2c54-49a0-b2d0-e8859942e65f.jpeg)
-
 ## TIL?
 
 Today I Learned의 약자.
@@ -7,35 +5,25 @@ Today I Learned의 약자.
 오늘도 난 공부를 했다. 라는 용어이며 <br>
 하루에 공부했던 내용을 깃허브 또는 블로그에 올리는 행위를 말합니다. <br>
 
-오늘 난 공부를 했다는 주제로 `오늘 할 일(계획)`, `오늘 한 일(회고)`, `내일 할 일(계획)`, `장기 계획` 순으로 정리하여 매일 올릴려고 노력하고 있습니다. ✍
+##회고
+2023년 12월에 TIL이라는 내 repo를 보았다, 보니깐 당시에.. TODO List 를 쓰고 있었다.
 
-## 작성 규칙
+그래서 나는 다시 제대로 작성하고 싶어서 todo, diary 같은 부분은날리고 필요한것만 쓸려고 합니다.
 
-- 폴더와 파일명은 영문으로 작성한다.
-- 해당 문서를 다시 봤을 때, 추가적인 검색의 비용이 들지 않도록 자세히 기록한다.
-- 더 많은 공유를 원하는 기록은 블로그에 포스팅한다.
-- 쉴 땐 확실히 쉬고, contributions를 초록색으로 채우는 것에 집착하지 않는다.
-- reference를 명시하고, 원작자가 참고를 허용하는 자료만 사용한다.
-
-## 내가 정한 작성 규칙
-
-- TIL는 오늘도 난 공부를 했다 이며 일기가 아니다.
-- 사진을 넣는것을 지양한다
-- 심오하고 깊은 내용은 블로그에도 작성을 한다. (위 작성 규칙과 동일)
-- github에는 간결하게 올릴려고 노력한다.
+TIL Diary는 작성할거지만, 작년처럼 `일기`는 쓰지 않겠습니다.
 
 ## 분류
 
-### TIL
+#### TIL
 
 - [TIL](https://github.com/GangOn0215/dev-til/tree/main/TIL/2022)
 
-### JavaScript
+#### JavaScript
 
 - [Copy](https://github.com/GangOn0215/dev-til/blob/main/JavaScript/Copy.md)
 - [Date](https://github.com/GangOn0215/dev-til/blob/main/JavaScript/Date.md)
 
-### React
+#### React
 
 - [DataPicker](https://github.com/GangOn0215/dev-til/blob/main/React/DatePicker.md)
 - [Router](https://github.com/GangOn0215/dev-til/blob/main/React/Router.md)
