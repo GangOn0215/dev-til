@@ -32,11 +32,11 @@ php artisan storage:link
 
 다음 명령어를 실행하게 되면
 
-![Alt text](2-2.png)
+![Alt text](../../../assets/images/20231218/2-2.png)
 
 `/public/storage` 라는 폴더가 생겼을것입니다.
 
-![Alt text](1-2.png)
+![Alt text](../../../assets/images/20231218/1-2.png)
 
 이걸 cli로 확인해보면 다음과 같이 storage 가 심볼릭 링크를 통해 `storage/app/public`으로 이동하는걸 확인 할수있습니다.
 
@@ -94,6 +94,6 @@ public function store(Request $request)
 }
 ```
 
-![Alt text](image-1.png)
+![Alt text](../../../assets/images/20231218/image-1.png)
 
 다음과 같이코드를 작업하게 되면 `/storage/app/public` 안에 hash로 저장해둔 파일명의 파일이 존재 합니다.
