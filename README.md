@@ -12,21 +12,13 @@ Today I Learned의 약자.
 
 TIL Diary는 작성할거지만, 작년처럼 `일기`는 쓰지 않겠습니다.
 
+## 폴더 분류
+`/dev` 프로그래밍 관련된 내용을 저장 해두는 곳
+`/issue` 에러 또는 버그가 발생했을때 어떻게 처리 했는지 모아두는 곳
+`/etc` til 또는 그 외
+
 ## 분류
 
 #### TIL
 
-- [TIL](https://github.com/GangOn0215/dev-til/tree/main/TIL/2022)
-
-#### JavaScript
-
-- [Copy](https://github.com/GangOn0215/dev-til/blob/main/JavaScript/Copy.md)
-- [Date](https://github.com/GangOn0215/dev-til/blob/main/JavaScript/Date.md)
-
-#### React
-
-- [DataPicker](https://github.com/GangOn0215/dev-til/blob/main/React/DatePicker.md)
-- [Router](https://github.com/GangOn0215/dev-til/blob/main/React/Router.md)
-- [[ Optimize ] React.memo](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20ReactMemo.md)
-- [[ Optimize ] useMemo](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20useMemo.md)
-- [[ Optimize ] useCallback](https://github.com/GangOn0215/dev-til/blob/main/React/%5B%20Optimize%20%5D%20useCallback.md)
+- [TIL](https://github.com/GangOn0215/dev-til/ETC/TIL)
